@@ -122,6 +122,81 @@ body {
 }
 
 
+/* Contact Styles */
+.main-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    /* margin-top: 6%; */
+    height: 100vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.input-container {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.input-container > input {
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 11.25rem;
+}
+
+.input-container > label {
+    text-align: center;
+    border: 1px solid black;
+    width: 7.188rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    background-color: #494949;
+    color: #ffffff;
+    border: none;
+    padding: .8rem;
+}
+
+.questions-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* margin-left: 20%; */
+    gap: 1rem;
+}
+
+.questions-container > label {
+    align-self: center;
+    border: 1px solid black;
+    width: 7.188rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #494949;
+    color: #ffffff;
+    padding: .8rem;
+    border: none;
+}
+
+.questions-container > button {
+    width: 40%;
+    align-self: center;
+    padding: .5rem;
+    background-color: #fb9147;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
 
 
 
