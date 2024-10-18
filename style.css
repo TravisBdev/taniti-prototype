@@ -93,8 +93,8 @@ body {
     line-height: 1.5;
 }
 
-/* About Main Hero Styles */
-.about-main {
+/* Main Hero Styles */
+.main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -102,18 +102,18 @@ body {
     align-items: center;
 }
 
-.about-img-container {
+.img-container {
     display: flex;
     flex-direction: column;
 }
 
-.about-hero-img {
+.hero-img {
     width: 100%;
     max-width: 850px;
     max-height: 750px;
 }
 
-.about-description {
+.description {
     line-height: 1.3;
     display: flex;
     flex-direction: column;
