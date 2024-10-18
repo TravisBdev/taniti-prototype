@@ -1,3 +1,5 @@
+
+/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +12,73 @@ body {
     min-height: 100vh;
 }
 
+/* Nav Styles */
+.main-header {
+    border-bottom: 1px solid #fb9147;
+}
 
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.logo {
+    width: 7.25rem;
+    height: auto;
+}
+
+.nav-link-list {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #032646;
+    margin: 0 2rem;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px);
+    transition: .5s;
+    color: #578ca8;
+    background: transparent;
+    /* box-shadow: 0px 21px 20px -11px rgba(87,140,168,1); */
+}
+
+.search {
+    height: 2rem;
+    width: 15rem;
+    font-size: 14px;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #fff;
+    border: 1px solid #adadaf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search:focus {
+    border: 2px solid #578ca8;
+    outline: none;
+}
+
+
+/* Main Hero Styles */
+
+
+
+
+
+
+
+
+
+/* Footer Styles */
 /* .footer {
     position: fixed;
     bottom: 0;
